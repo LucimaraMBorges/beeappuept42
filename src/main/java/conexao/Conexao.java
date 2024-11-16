@@ -19,7 +19,7 @@ public class Conexao {
 
             //tentar conexão
             Connection conn = DriverManager.getConnection(
-                    "jdbc:mysql://localhost:3306/canvasbeeapp?serverTimezone=UTC", //linha de conexao
+                    "jdbc:mysql://https://beeappuept42.vercel.app/", //linha de conexao
 
                     "root", //usuario do mysql
 
